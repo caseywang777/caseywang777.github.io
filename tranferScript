@@ -1,0 +1,7 @@
+wget --mirror --convert-links --adjust-extension --page-requisites --no-parent https://sites.google.com/view/kochihwang/home
+cp -r ./sites.google.com/view/ ./
+rm -rf sites.google.com
+git add .
+git commit
+git push origin master:master
+
